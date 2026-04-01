@@ -1,0 +1,9 @@
+# Mengabaikan environment dan cache
+venv/
+__pycache__/
+
+# Mengabaikan file rahasia
+.env
+
+# Mengabaikan file mac
+.DS_Store
