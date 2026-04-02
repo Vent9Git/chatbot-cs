@@ -1,9 +1,15 @@
-# Mengabaikan environment dan cache
+# Ignore Python virtual environment and cache
 venv/
 __pycache__/
 
-# Mengabaikan file rahasia
+# Ignore environment variable files
 .env
 
-# Mengabaikan file mac
+# Ignore system files
 .DS_Store
+
+# Ignore Streamlit configuration files
+.streamlit/
+
+# Ignore big chroma database directory
+chroma_db_25k/
